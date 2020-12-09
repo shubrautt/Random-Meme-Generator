@@ -1,0 +1,25 @@
+{
+   "name":"RANDOM MEME GENERATOR",
+   "description":"MEMES",
+   "logo":"https://i.imgflip.com/36k72h.jpg",
+   "keywords":[
+      "memes",
+      "FUN",
+      "HEROKU",
+      "enjoy"
+   ],
+   "repository":"https://github.com/dishapatel010/Random-Meme-Generator",
+   "website":"https://github.com/dishapatel010/Random-Meme-Generator",
+   "success_url":"https://github.com/dishapatel010/Random-Meme-Generator",
+   "buildpacks":[
+      {
+         "url":"heroku/php"
+      }
+   ],
+   "formation":{
+      "web":{
+         "quantity":1,
+         "size":"free"
+      }
+   }
+}
